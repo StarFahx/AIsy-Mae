@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Turnip.Abstractions\Turnip.Abstractions.csproj" />
+    <ProjectReference Include="..\Turnip.Discord.Abstractions\Turnip.Discord.Abstractions.csproj" />
+    <ProjectReference Include="..\Turnip.Schedule.Abstractions\Turnip.Schedule.Abstractions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LiteDb" Version="5.0.4" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.2" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
