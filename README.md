@@ -1,5 +1,5 @@
 # AIsy-Mae
-A discord bot for tracking turnip costs &amp; prices so that you can determine who to buy from/sell to
+A discord bot for tracking turnip costs &amp; prices so that you can determine who to buy from/sell to!
 
 ## Installation
 AIsyMae is currently a standalone project, and the libraries are not distributed with any package managers. You'll need to have a discord bot app set up (see https://discordapp.com/developers/applications) and replace the discord API key placeholder text in appsettings.json with your bot's secret key. Then build the solution and run AIsyMae.exe!
